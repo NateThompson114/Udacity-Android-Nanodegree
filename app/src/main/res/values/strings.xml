@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">MyFirstAndroidApp</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="app_name">MyFirstAndroidApp</string>
+    <string name="spotifyButton">Spotify Streamer</string>
+    <string name="scoreButton">SCORES APP</string>
+    <string name="libButton">LIBRARY APP</string>
+    <string name="buildBigButton">BUILD IT BIGGER</string>
+    <string name="xyzButton">XYZ READER</string>
+    <string name="capstoneButton">CAPSTONE: MY OWN APP</string>
 </resources>

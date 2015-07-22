@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/minorProjectButtons"
+        android:text="@string/spotifyButton"
+        android:id="@+id/spotify"
+        android:onClick="spotifyMessage" />
+
+    <Button
+        style="@style/minorProjectButtons"
+        android:text="@string/scoreButton"
+        android:id="@+id/scores"
+        android:onClick="scoreMessage" />
+
+    <Button
+        style="@style/minorProjectButtons"
+        android:text="@string/libButton"
+        android:id="@+id/library"
+        android:onClick="libraryMessage" />
+
+    <Button
+        style="@style/minorProjectButtons"
+        android:text="@string/buildBigButton"
+        android:id="@+id/buildItBigger"
+        android:onClick="buildBiggerMessage" />
+
+    <Button
+        style="@style/minorProjectButtons"
+        android:text="@string/xyzButton"
+        android:id="@+id/xyzReader"
+        android:onClick="xyzMessage" />
+
+    <Button
+        style="@style/minorProjectButtons"
+        android:text="@string/capstoneButton"
+        android:id="@+id/capstoneProject"
+        android:background="#ffff2145"
+        android:textColor="#ffffffff"
+        android:onClick="capstoneMessage" />
+</LinearLayout>
